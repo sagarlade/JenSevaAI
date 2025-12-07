@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Header } from '../components/Header';
-import { ChatInterface } from '../components/ChatInterface';
+import { Header } from './components/Header';
+import { ChatInterface } from './components/ChatInterface';
 import { LanguageCode } from './types';
 
 const App: React.FC = () => {

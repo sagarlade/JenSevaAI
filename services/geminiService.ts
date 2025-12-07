@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { SCHEMES_DB, SUPPORTED_LANGUAGES } from "../src/constants";
-import { GeminiResponse, LanguageCode } from "../src/types";
+import { GeminiResponse, LanguageCode } from "../types";
 
 // Initialize Gemini Client
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });

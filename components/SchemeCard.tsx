@@ -1,5 +1,5 @@
 import React from 'react';
-import { Scheme } from '../pages/types';
+import { Scheme } from '../src/types';
 import { ExternalLink, CheckCircle2, Sprout, GraduationCap, HeartPulse, Home, Baby, Users } from 'lucide-react';
 
 interface SchemeCardProps {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Landmark, Languages } from 'lucide-react';
 import { LanguageCode } from '../types';
-import { SUPPORTED_LANGUAGES, UI_TRANSLATIONS } from '../src/constants';
+import { SUPPORTED_LANGUAGES, UI_TRANSLATIONS } from '../constants';
 
 interface HeaderProps {
   language: LanguageCode;

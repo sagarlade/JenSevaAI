@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Loader2, Sparkles, User, Bot } from 'lucide-react';
 import { ChatMessage, Scheme, LanguageCode } from '../types';
-import { SCHEMES_DB, UI_TRANSLATIONS } from '../src/constants';
+import { SCHEMES_DB, UI_TRANSLATIONS } from '../constants';
 import { getSchemeRecommendations } from '../services/geminiService';
 import { SchemeCard } from './SchemeCard';
 

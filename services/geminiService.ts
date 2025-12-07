@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
-import { SCHEMES_DB, SUPPORTED_LANGUAGES } from "../src/constants";
+import { SCHEMES_DB, SUPPORTED_LANGUAGES } from "../constants";
 import { GeminiResponse, LanguageCode } from "../types";
 
 // Initialize Gemini Client
